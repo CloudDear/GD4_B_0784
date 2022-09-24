@@ -7,6 +7,7 @@ solid #D40013; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
 
     <div class="body d-flex justify-content-between">
         <h4>LIST MOVIE</h4>
+        <a href="../page/insertPageMovies.php"><i class="fa fa-plus fa-2x" style="color: green" aria-hidden="false"></i></a>
     </div>
     <hr>
         <table class="table ">
@@ -36,13 +37,12 @@ die(mysqli_error($con));
                     <th scope="row">'.$no.'</th>
                     <td>'.$data['name'].'</td>
                     <td>'.$data['genre'].'</td>
-                    <td>'.$data['release'].'</td>
+                    <td>'.$data['realese'].'</td>
                     <td>'.$data['season'].'</td>
                     <td>'.$data['synopsis'].'</td>
                     <td>
-                        <a href="../process/deleteMovieProcess.php?id='.$data['id'].'" 
-onClick="return confirm ( \'Are you sure want to delete this 
-data?\')">                        <i style="color: red" class="fa fa-trash fa-2x"></i>
+                        <a href="../process/deleteMovieProcess.php?id='.$data['id'].'" onClick="return confirm ( \'Are you sure want to delete this data?\')">                        
+                        <i style="color: red" class="fa fa-trash fa-2x"></i>
                         </a>
                     </td>
                 </tr>';
