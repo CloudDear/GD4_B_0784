@@ -7,7 +7,11 @@
 <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px 
 solid #D40013; boxshadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 
 0.19);" >
-    <h4 >EDIT PROFILE</h4>
+
+    <div class="body d-flex justify-content-between">
+    <h4 >MY PROFILE</h4>
+        <a href="../page/dashboardPage.php"><i class="fa fa-arrow-left fa-2x" style="color: black" aria-hidden="false"></i></a>
+    </div>
     <div class="card-body">
         <form>
             <div class="mb-3">
