@@ -44,7 +44,7 @@ crossorigin="anonymous">
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Job</label>
-                                        <select class="form-select" aria-label="Default select example" name="membership" id="membership">
+                                        <select class="form-select" aria-label="Default select example" name="job" id="job">
                                             <option value="Chef">Chef</option>
                                             <option value="Mechanic">Mechanic</option>
                                             <option value="Lecturer">Lecturer</option>
