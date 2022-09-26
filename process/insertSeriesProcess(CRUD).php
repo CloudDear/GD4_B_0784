@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(isset($_POST['editSeries'])){
+    if(isset($_POST['insertSeries'])){
 
         // untuk mengoneksikan dengan database dengan memanggil file db.php
         include('../db.php');

@@ -7,7 +7,7 @@ solid #D40013; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
 
     <div class="body d-flex justify-content-between">
         <h4>LIST SERIES</h4>
-        <a href="../page/insertPageMovies.php"><i class="fa fa-plus fa-2x" style="color: green" aria-hidden="false"></i></a>
+        <a href="../page/insertSeriesPage(CRUD).php"><i class="fa fa-plus fa-2x" style="color: green" aria-hidden="false"></i></a>
     </div>
     <hr>
         <table class="table ">
@@ -42,7 +42,8 @@ die(mysqli_error($con));
                     <td>'.$data['season'].'</td>
                     <td>'.$data['synopsis'].'</td>
                     <td>
-                        <a href="../page/editSeriesPage(CRUD).php?id='.$data['id'].'" onClick="return confirm ( \'Are you sure want to delete this data?\')">                        
+                        <a href="../page/editSeriesPage(CRUD).php?id='.$data['id'].'" 
+                        onClick="return confirm ( \'Are you sure want to edit this data?\')">                        
                         <i style="color: green" class="fa fa-pencil fa-2x"></i>
                         </a>
                         <a href="../process/deleteSeriesProcess(CRUD).php?id='.$data['id'].'" 

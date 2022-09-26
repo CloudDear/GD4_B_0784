@@ -11,7 +11,7 @@
         $name = $_POST['name'];
         $genre = "";
         foreach ($_POST['genre'] as $x) {
-            $genre= $genre.$x.", ";
+            $genre= $genre.$x."";
         }
         $realease = $_POST['realease'];
         $episode = $_POST['episode'];
@@ -25,13 +25,13 @@
             echo
                 '<script>
                 alert("Edit Series Success"); 
-                window.location = "../page/editSeriesPage(CRUD).php"
+                window.location = "../page/listSeriesPage(CRUD).php"
                 </script>';
         }else{
             echo
                 '<script>
                 alert("Edit Series Failed");
-                window.location = "../page/editSeriesPage(CRUD).php"
+                window.location = "../page/listSeriesPage(CRUD).php"
                 </script>';
         }
         
