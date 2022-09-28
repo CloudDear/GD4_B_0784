@@ -10,8 +10,8 @@
         $id = $_POST['id'];
         $name = $_POST['name'];
         $genre = "";
-        foreach ($_POST['genre'] as $x) {
-            $genre= $genre.$x."";
+        foreach ($_POST['genre'] as $gnr) {
+            $genre= $genre.$gnr."";
         }
         $realease = $_POST['realease'];
         $episode = $_POST['episode'];

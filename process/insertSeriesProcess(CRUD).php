@@ -22,7 +22,7 @@
             echo
                 '<script>
                 alert("Insert Series Success"); 
-                window.location = "../page/insertSeriesPage(CRUD).php"
+                window.location = "../page/listSeriesPage(CRUD).php"
                 </script>';
         }else{
             echo
